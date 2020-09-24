@@ -1,0 +1,19 @@
+package pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
+
+public class EbayPage {
+    public EbayPage() {
+
+        PageFactory.initElements(Driver.getDriver(), this);
+    }
+
+    @FindBy(xpath = "//h1[@class='srp-controls__count-heading']")
+    public WebElement sonucSayisi;
+
+    @FindBy(xpath = "//input[@size='50']")
+    public WebElement aramaKutusu;
+}

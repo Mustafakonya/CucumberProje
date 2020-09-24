@@ -1,0 +1,280 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T19:29:39.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1106000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TC08_Walmart Coklu Urun Arama Testi",
+        "description": "",
+        "id": "walmart-test;tc08-walmart-coklu-urun-arama-testi;test-verileri;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3183154000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8897843000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1288742000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici walmartta aramakutusuna \"calculator\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"calculator\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmartta_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5496302000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmartta sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:29:58.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 92000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC08_Walmart Coklu Urun Arama Testi",
+        "description": "",
+        "id": "walmart-test;tc08-walmart-coklu-urun-arama-testi;test-verileri;3",
+        "after": [
+          {
+            "result": {
+              "duration": 876963000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2585909000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6624593000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici walmartta aramakutusuna \"watch\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"watch\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmartta_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042434000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmartta sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:30:09.821Z",
+        "before": [
+          {
+            "result": {
+              "duration": 107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC08_Walmart Coklu Urun Arama Testi",
+        "description": "",
+        "id": "walmart-test;tc08-walmart-coklu-urun-arama-testi;test-verileri;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1016859000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4886160000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https://walmart.com\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://walmart.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7844019000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici walmartta aramakutusuna \"flower\" yazar ve arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flower\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmartta_aramakutusuna_yazar_ve_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1039758000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmartta sonuc sayisini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@walmart"
+          }
+        ]
+      }
+    ],
+    "name": "Walmart Test",
+    "description": "",
+    "id": "walmart-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/walmart.feature",
+    "tags": [
+      {
+        "name": "@walmart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
